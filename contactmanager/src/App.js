@@ -8,7 +8,14 @@ class App extends Component {
     return (
       <div className="App">
       <Header />
-      <Contact />
+      <Contact name = "Shaun Dawson"
+      email = "shaund@gmail.com" phone="347-300-1243"
+      />
+      <Contact
+      name = "Nandi Alman"
+      email= "nandi@gmail.com"
+      phone = "123-456-4762"
+      />
       </div>
     );
   }
